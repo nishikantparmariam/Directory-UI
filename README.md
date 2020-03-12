@@ -7,6 +7,9 @@ Installation Steps:
 1) Download the three files namely - index.html, main.css, main.js
 2) Directly open index.html on any modern browser. Please make sure that you have an internet connection so that 'html' page can load the required files from the internet
 
+Snapshot :
+![alt text](https://github.com/nishikantparmariam/Directory-UI/blob/master/snapshot1.png)
+
 Tech Stack :
 JavaScript, jQuery, HTML5, CSS
 
