@@ -1,0 +1,65 @@
+<!--
+
+    Author : Nishikant Parmar
+    (nishikant.parmar@iitgn.ac.in)    
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Directory</title>    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">       
+</head>
+<body>
+    <br>    
+    <div id="alertText"></div>    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">                                           
+                <span>Current Path : <span class="badge badge-primary" id="currentDirectoryPath">/</span></span>                
+            </div>            
+            <div class="col-md-1"></div>
+        </div>
+        <br>        
+        <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+                <div class="card">                    
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col-md-8 rightBorder">
+                                <h3 >Directory Structure</h3>
+                                <div class="infoMessages">( Click on any directory to go to that location )</div>
+                                <hr>
+                                <ul id="folderView"></ul>     
+                            </div>
+                            <div class="col-md-4">                                           
+                                Create New Folder at Current Path                                                                                                              
+                                <div style="height: 15px;"></div>
+                                <input id="newFolderName" type="text" class="form-control" placeholder="New Folder Name">
+                                <div style="height: 15px;"></div>
+                                <button id="createFolderBtn" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i> Create Folder Here</button>
+                                <hr>                                
+                                <button id="upFolderBtn" class="btn btn-secondary btn-sm"><i class="fa fa-arrow-up"></i> Go one folder up   </button>
+                            </div>
+                        </div>                                              
+                    </div>
+                </div>                             
+            </div>
+            <div class="col-md-1"></div>
+        </div>         
+    </div>        
+    <br><br><br>
+    <script src="main.js"></script> 
+</body>
+</html>
+

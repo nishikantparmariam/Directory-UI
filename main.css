@@ -1,0 +1,56 @@
+/*
+
+    Author : Nishikant Parmar
+    (nishikant.parmar@iitgn.ac.in)    
+
+*/
+
+body {
+    font-family: 'Baloo Chettan 2', cursive;
+    background-color: #E6ECF0;
+    font-size: 15pt;
+    
+}
+ul {
+    list-style-type: none;
+}    
+  
+.cursorPointer {
+    cursor: pointer;
+}
+.folderViewIcon {
+    color:#888;
+}
+
+.rightBorder {
+    border-right:1px solid rgba(0,0,0,.1);
+}
+
+#createFolderBtn, #upFolderBtn {
+    width: 100%;
+}
+
+.infoMessages {
+    font-size: 10pt;
+}
+
+#currentDirectoryPath {
+    font-weight: normal !important;
+    font-size: 17pt;
+}
+
+#alertText {
+    opacity: 0;  
+    transition: all 300ms;
+    display: inline;    
+    position: fixed;
+    margin-left:50vw;
+    margin-top:3vh;
+    transform: translate(-50%,0);
+    background-color: rgba(0,0,0,.5);
+    padding: 7px 15px;
+    border-radius: 5px;
+    color:#ffffff;    
+    z-index: 99;
+}
+  
