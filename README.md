@@ -1,7 +1,5 @@
 ### Author : Nishikant Parmar
 
-(nishikant.parmar@iitgn.ac.in, +91 9131304419)
-
 Live Website : https://directory-assignment-nishikant.netlify.com/
 
 ### Installation Steps:
